@@ -1,8 +1,17 @@
 import React from 'react';
 
 function MainContent () {
+    const firstPart = "This is";
+    const lastPart = "my content";
+    const date = new Date()
+    let hours = date.getHours() 
+
 	return (
-        <h1>This is the main content</h1>
+        <div>
+            <p>Version 1: {firstPart + " " + lastPart}</p>
+            <p>Version 2: {`${firstPart} ${lastPart}`}</p>
+            <p>It is currently {hours}.{date.getMinutes()}h</p>
+        </div>
     )
 }
 
