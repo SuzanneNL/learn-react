@@ -4,12 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+function MyInfo() {
+	return(
+		<div>
+			<h1>Name</h1>
+			<p>Personal information</p>
+      <ul>
+        <li>Personal fact 1</li>
+        <li>Personal fact 2</li>
+        <li>Personal fact 3</li>
+      </ul>
+		</div>
+	)
+}
+
 ReactDOM.render(
-  <ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-  </ul>,
+  <MyInfo />,
   document.getElementById("root")
 )
 
