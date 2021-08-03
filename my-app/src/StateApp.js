@@ -12,7 +12,6 @@ class StateApp extends React.Component {
         return (
             <div>
                 <h1>Is state important to know? {this.state.answer}</h1>
-                <ChildComponent answer={this.state.answer}/>
             </div>
         )
     }

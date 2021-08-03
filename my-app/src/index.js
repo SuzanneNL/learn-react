@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import StateApp from './StateApp';
+import FixStateApp from './FixStateApp';
 
 ReactDOM.render(
-  <StateApp />,
+  <FixStateApp />,
   document.getElementById("root")
   )
 
