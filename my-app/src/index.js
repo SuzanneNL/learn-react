@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import ClassBasedApp from './ClassBasedApp';
+import ConvertApp from './ConvertApp';
 
 ReactDOM.render(
-  <ClassBasedApp />,
+  <ConvertApp />,
   document.getElementById("root")
   )
 
