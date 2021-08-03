@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import JokeApp from './JokeApp';
+import ProductsApp from './ProductsApp';
 
 ReactDOM.render(
-  <JokeApp />,
+  <ProductsApp />,
   document.getElementById("root")
   )
 
