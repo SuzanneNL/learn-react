@@ -1,28 +1,15 @@
 import React from 'react';
-import JokeComponent from './components/JokeComponent'
+
+import Joke from './components/Joke'
+import jokesData from './components/jokesData'
 
 function JokeApp() {
+    const jokeComponents = jokesData.map(joke => <Joke key={joke.id} question={joke.question} punchLine={joke.punchLine} />)
+
     return (
         <div>
-            <JokeComponent
-                joke={{
-                    question:"joke 1",
-                    punchLine:"punchline 1"
-                }}
-            />
-            <JokeComponent
-                joke={{
-                    question:"joke 2",
-                    punchLine:"punchline 2"
-                }}
-            />
-            <JokeComponent
-                joke={{
-                    punchLine:"punchline 3"
-                }}
-            />
+            {jokeComponents}
         </div>
     )
 }
-
 export default JokeApp
