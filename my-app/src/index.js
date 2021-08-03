@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import FixStateApp from './FixStateApp';
+import LoginApp from './LoginApp';
 
 ReactDOM.render(
-  <FixStateApp />,
+  <LoginApp />,
   document.getElementById("root")
   )
 
