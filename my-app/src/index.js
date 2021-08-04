@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import ConditionalRenderingApp from './ConditionalRenderingApp';
+import UnreadMessagesApp from './UnreadMessagesApp';
 
 ReactDOM.render(
-  <ConditionalRenderingApp />,
+  <UnreadMessagesApp />,
   document.getElementById("root")
   )
 
