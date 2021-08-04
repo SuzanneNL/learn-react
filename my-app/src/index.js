@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import EventHandlingApp from './EventHandlingApp';
+import ToDoApp from './ToDoApp';
 
 ReactDOM.render(
-  <EventHandlingApp />,
+  <ToDoApp />,
   document.getElementById("root")
   )
 
