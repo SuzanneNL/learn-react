@@ -6,6 +6,8 @@ class App extends Component {
         this.state = {}
     }
 
+    
+
     componentDidMount() {
         // GET the data I need to correctly display something (f.e. API call)
     }

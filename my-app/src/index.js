@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import LifeCycleApp from './LifeCycleApp';
+import ConditionalRenderingApp from './ConditionalRenderingApp';
 
 ReactDOM.render(
-  <LifeCycleApp />,
+  <ConditionalRenderingApp />,
   document.getElementById("root")
   )
 
