@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import FetchingData from './FetchingData';
+import Forms from './Forms';
 
 ReactDOM.render(
-  <FetchingData />,
+  <Forms />,
   document.getElementById("root")
   )
 
