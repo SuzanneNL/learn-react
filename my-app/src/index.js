@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Forms from './Forms';
+import TravelForm from './TravelForm';
 
 ReactDOM.render(
-  <Forms />,
+  <TravelForm />,
   document.getElementById("root")
   )
 
