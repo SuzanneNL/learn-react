@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './style.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import TravelForm from './TravelForm';
+import MemeProject from './MemeProject';
 
 ReactDOM.render(
-  <TravelForm />,
+  <MemeProject />,
   document.getElementById("root")
   )
 
